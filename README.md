@@ -1,4 +1,4 @@
-# Prometheus Server for K8s
+# Simple Prometheus Server for K8s
 
 ## How launch as pods in K8s
 1. Get Username, Password and K8s API server IP from `~./kube/config`
