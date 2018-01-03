@@ -1,5 +1,5 @@
 # Simple Prometheus Server for K8s
-* An old method to deploy Prometheus server on K8s which cAdvisor has deployed manually on every node in cluster
+* An old method to deploy Prometheus server on K8s which cAdvisor has to deploy manually on every node in cluster
 
 ## How to launch as pods in K8s
 1. Get Username, Password and K8s API server IP from `~./kube/config`
