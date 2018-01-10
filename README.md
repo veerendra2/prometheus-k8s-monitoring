@@ -7,7 +7,11 @@ kubectl create -f https://raw.githubusercontent.com/veerendra2/prometheus-k8s-mo
 ```
 kubectl create -f https://raw.githubusercontent.com/veerendra2/prometheus-k8s-monitoring/master/prometheus-configmap.yml
 ```
-3. Now create `Deployment` which K8s creates Prometheus POD, Service with a NodePort `30901`
+3. Apply RBAC
+```
+kubectl apply -f https://raw.githubusercontent.com/veerendra2/prometheus-k8s-monitoring/master/prometheus-rbac.yml
+```
+4. Now create `Deployment` which K8s creates Prometheus POD, Service with a NodePort `30901`
 ```
 kubectl create -f https://raw.githubusercontent.com/veerendra2/prometheus-k8s-monitoring/master/prometheus-deployment.yml
 ```
