@@ -1,4 +1,4 @@
-# K8s Monitoring with Prometheus + cAdvisor
+# K8s Monitoring with Prometheus + cAdvisor DaemonSet
 1. Run cAdvisor Daemonset which K8s deploys the cAdvisor on every node in cluster
 ```
 kubectl create -f https://raw.githubusercontent.com/veerendra2/prometheus-k8s-monitoring/master/cadvisor-daemonset.yml
