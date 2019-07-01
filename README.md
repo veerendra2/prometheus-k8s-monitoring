@@ -1,3 +1,6 @@
+![GitHub stars](https://img.shields.io/github/stars/veerendra2/prometheus-k8s-monitoring.svg?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/veerendra2/prometheus-k8s-monitoring.svg?style=for-the-badge)
+
 # K8s Monitoring with Prometheus + cAdvisor DaemonSet
 1. Run cAdvisor Daemonset which K8s deploys the cAdvisor on every node in cluster
 ```
